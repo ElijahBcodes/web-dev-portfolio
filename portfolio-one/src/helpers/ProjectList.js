@@ -9,7 +9,7 @@ export const ProjectList = [
     {
       name: "Tic Tac Toe",
       image: Proj1,
-      skills: "JavaScript,HTML,CSS",
+      skills: "React, JavaScript, HTML, CSS",
     },
     {
       name: "Pig Latin Translator",

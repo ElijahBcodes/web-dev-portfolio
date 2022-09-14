@@ -26,11 +26,11 @@ function Home() {
         <ol className='list'>
             <li className='item'>
               <h2>Front-End </h2>
-              <span>HTML, CSS, React, Rails, Yarn </span>
+              <span>HTML, CSS, React, Yarn </span>
             </li>
             <li className='item'>
               <h2>Back-End </h2>
-              <span>PostgreSQL, Jest, NodeJs, NPM, Postman</span>
+              <span>PostgreSQL, Rails,Jest, NodeJs, NPM, Postman</span>
            </li>
            <li className='item'>
             <h2>Languages</h2>

@@ -12,9 +12,9 @@ function Footer() {
         <InstagramIcon/>
         <TwitterIcon/>
         <LinkedInIcon/>
-        <GithubIcon/>
+        <GithubIcon onClick/>
       </div>
-      <p> &copy;2022 elijahb.com</p>
+      <p> &copy;2022 Elijah </p>
       
       
       </div>
