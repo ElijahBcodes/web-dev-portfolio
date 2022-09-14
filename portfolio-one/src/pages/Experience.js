@@ -29,7 +29,7 @@ function Experience() {
       icon={<SchoolIcon />}
       >
         <h3 className='vertical-timeline-element-title'>United States Navy</h3>
-        <p>Firecontrolman</p>
+        <p>Electronics</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement 
