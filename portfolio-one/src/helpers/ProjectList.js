@@ -9,22 +9,22 @@ export const ProjectList = [
     {
       name: "Tic Tac Toe",
       image: Proj1,
-      tech: "JavaScript,HTML,CSS",
+      skills: "JavaScript,HTML,CSS",
     },
     {
       name: "Pig Latin Translator",
       image: Proj2,
-      tech: "React, JavaScript",
+      skills: "React, JavaScript",
     },
     {
       name: "Treasure Hunt Game",
       image: Proj3,
-      tech: "HTML, CSS, JavaScript",
+      skills: "HTML, CSS, JavaScript",
     },
     {
       name: "City of Larendale text Game",
       image: Proj4,
-      tech: "Ruby",
+      skills: "Ruby",
     },
     {
       name: "Blog App",
