@@ -14,7 +14,7 @@
     align-items: center;
     text-align: center;
     background-color: #51d3e2;
-    color: #f0f0f0;
+    color: #121111;
   }
   
   .about h2 {
@@ -41,6 +41,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   
   .skills h1 {
@@ -53,7 +54,7 @@
   }
   
   .list span {
-    font-size: 20px;
+    font-size: 35px;
   }
   
   @media only screen and (max-width: 600px) {
