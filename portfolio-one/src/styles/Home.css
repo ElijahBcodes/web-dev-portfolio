@@ -78,4 +78,15 @@
     .skills h2 {
       font-size: 30px;
     }
+
+    .portrait {
+      width: auto;
+      height: 10%;
+      border-radius: 20rem;
+      border-bottom-left-radius: 320px;
+      border-bottom-right-radius: 320px;
+    }
+    .p-container {
+      height: 5rem;
   }
+}

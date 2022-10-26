@@ -4,12 +4,16 @@ import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css"
+import Pic10 from "../assets/portrait.png"
 
 function Home() {
   return (
     <div className='home'>
       <div className='about'>
         <h2>Hello, my name is Elijah</h2>
+        <div className='p-container'>
+        <img className='portrait' alt='portrait' src={Pic10}/>
+        </div>
         <div className='prompt'>
           <br></br>
           <br></br>
