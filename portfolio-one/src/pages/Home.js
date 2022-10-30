@@ -1,8 +1,9 @@
 import React from 'react'
-// import TwitterIcon from "@material-ui/icons/Twitter";
+import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
-import EmailIcon from "@material-ui/icons/Email";
+
+// import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css"
 import Pic10 from "../assets/portrait.png"
 
@@ -19,14 +20,20 @@ function Home() {
           </div>
         </div>
         <div className='prompt'>
-          <h3 className="about-bio">
-            <p>
-              A web developer with a zeal for technology and learning.
-            </p>
-          </h3>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <br></br>
+          <br></br>
+          <p>
+            A web developer with a zeal for for technology and learning.
+          </p>
+          <a href="https://www.linkedin.com/in/elijah-barreto/" >
+            <LinkedInIcon />
+          </a>
+          <a href="https://twitter.com/eli1inthesnow">
+            <TwitterIcon />
+          </a>
+          <a href="https://github.com/ElijahBcodes" >
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className='skills'>
@@ -34,7 +41,7 @@ function Home() {
         <ol className='list'>
           <li className='item'>
             <h2>Front-End </h2>
-            <span>HTML, CSS, React, Yarn </span>
+            <span>HTML, CSS, React, Bootstrap, Tailwind, Sass, Yarn, NPM</span>
           </li>
           <li className='item'>
             <h2>Back-End </h2>
