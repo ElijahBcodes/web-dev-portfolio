@@ -14,6 +14,7 @@ function ProjectDisplay() {
       <p>
         <b>Tech used:</b> {project.skills}
       </p>
+      <GitHubIcon />
     </div>
   );
 }
