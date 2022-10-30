@@ -45,7 +45,7 @@ function Home() {
           </li>
           <li className='item'>
             <h2>Back-End </h2>
-            <span>PostgreSQL, Rails,Jest, NodeJs, NPM, Postman</span>
+            <span>PostgreSQL, Rails, Jest, NodeJs, NPM, Postman</span>
           </li>
           <li className='item'>
             <h2>Languages</h2>
