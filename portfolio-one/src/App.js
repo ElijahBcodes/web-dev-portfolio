@@ -11,7 +11,7 @@ import ProjectDisplay from "./pages/ProjectDisplay";
 
 function App() {
   return (
-    <div className='App' id="header">
+    <div className='App'>
       <Router>
         <Navbar />
         <Routes>
