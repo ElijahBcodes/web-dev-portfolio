@@ -60,7 +60,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .about h2 {}
 
   .about .prompt {
     margin-top: 10px;
@@ -70,6 +69,8 @@
 
   .skills {
     text-align: center;
+    height: 1rem;
+
   }
 
   .list {
