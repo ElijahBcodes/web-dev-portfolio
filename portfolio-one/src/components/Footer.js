@@ -1,5 +1,5 @@
 import React from 'react'
-import InstagramIcon from "@material-ui/icons/Instagram";
+import ArrowUpward from '@material-ui/icons/ArrowUpward';
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
@@ -9,15 +9,21 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <InstagramIcon/>
-        <TwitterIcon/>
-        <LinkedInIcon/>
-        <GithubIcon onClick/>
+        <a href="https://www.linkedin.com/in/elijah-barreto/" >
+          <LinkedInIcon />
+        </a>
+        <a href="https://twitter.com/eli1inthesnow">
+          <TwitterIcon />
+        </a>
+        <a href="https://github.com/ElijahBcodes" >
+          <GithubIcon />
+        </a>
       </div>
-      <p> &copy;2022 Elijah </p>
-      
-      
-      </div>
+      <a className="arrow" href="#top">
+        <ArrowUpward />
+      </a>
+
+    </div>
   )
 }
 
