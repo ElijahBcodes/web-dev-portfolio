@@ -1,8 +1,8 @@
 import React from 'react'
-import ArrowUpward from '@material-ui/icons/ArrowUpward';
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
+import ArrowUpward from '@material-ui/icons/ArrowUpward';
 import "../styles/Footer.css"
 
 function Footer() {
