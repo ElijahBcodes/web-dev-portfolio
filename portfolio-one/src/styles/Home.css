@@ -1,81 +1,114 @@
 .home {
-    width: 100%;
-    align-items: center;
-    font-family: "Arial", sans-serif;
-    color: #081344;
-  }
-  
-  .about {
-    width: 100%;
-    height: calc(100vh - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #51d3e2;
-    color: #121111;
-  }
-  
-  .about h2 {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
-    color: #1a1914;
-    height: 50px;
-  }
-  
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #081344;
+}
+
+.about {
+  width: 100%;
+  /* height: calc(100vh - 100px); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #51d3e2;
+  color: #121111;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #1a1914;
+  height: 10px;
+  font-size: 50px;
+
+}
+
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: #1a1914;
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skills h1 {
+  color: #3e497a;
+}
+
+.skills .list {
+  list-style: none;
+  width: 60%;
+}
+
+.list span {
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+
   .about .prompt {
-    width: 40%;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+    height: 1rem;
+
+  }
+
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
     font-size: 30px;
   }
-  .prompt svg {
-    font-size: 60px;
-    margin: 5px;
-    color: #1a1914;
+
+  .portrait {
+    margin: 10px;
+    width: .1rem;
+    height: .1rem;
+    -webkit-clip-path: circle(29.8% at 51% 38%);
+    clip-path: circle(29.8% at 51% 38%);
   }
-  
-  .skills {
-    font-size: 35px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+
+  .portrait-style {
+    border-radius: 25px;
+    border-bottom-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    -webkit-clip-path: circle(50% at 50% 49%);
+    clip-path: circle(50% at 50% 49%);
   }
-  
-  .skills h1 {
-    color: #3e497a;
-  }
-  
-  .skills .list {
-    list-style: none;
-    width: 60%;
-  }
-  
-  .list span {
-    font-size: 35px;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .about h2 {
-      font-size: 40px;
-    }
-  
-    .about .prompt {
-      margin-top: 10px;
-      font-size: 20px;
-      width: 80%;
-    }
-  
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
-  }
+}
+
+
+.pic-style {
+  padding: 50px;
+  border: 5px;
+  margin: 10px;
+  -webkit-clip-path: circle(37.4% at 50% 50%);
+  clip-path: circle(37.4% at 50% 50%);
+}
+
+.about-bio {
+  padding: 1px;
+  border: 5 px;
+  color: rgb(17, 14, 22);
+}
