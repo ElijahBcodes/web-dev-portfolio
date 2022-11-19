@@ -2,7 +2,6 @@ import React from 'react'
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
-
 // import EmailIcon from "@material-ui/icons/Email";
 import "../styles/Home.css"
 import Pic10 from "../assets/portrait.png"
@@ -10,9 +9,7 @@ import Pic10 from "../assets/portrait.png"
 function Home() {
   return (
     <div className='home'>
-
       <div className='about'>
-
         <div className='p-container'>
           <h2>Hello, my name is Elijah</h2>
           <div className="portrait-style pic-style">
@@ -20,8 +17,8 @@ function Home() {
           </div>
         </div>
         <div className='prompt'>
-          <br></br>
-          <br></br>
+          {/* <br></br>
+          <br></br> */}
           <p>
             A web developer with a zeal for for technology and learning.
           </p>
