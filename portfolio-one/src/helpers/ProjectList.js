@@ -1,39 +1,50 @@
-import Proj1 from "../assets/proj1.jpeg";
-import Proj2 from "../assets/proj2.jpeg";
+import Proj1 from "../assets/proj1.png";
+import Proj2 from "../assets/proj2.png";
 import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.jpg";
-import Proj6 from "../assets/proj6.jpg"
+
 
 export const ProjectList = [
     {
-      name: "Tic Tac Toe",
+      name: "Müd Müzik",
       image: Proj1,
-      skills: "React, JavaScript, HTML, CSS",
+      skills: "React, JavaScript, HTML, CSS, Rails",
+      description:"Müd Müzik is a website application made using React IN Rails for our capstone project at LEARN Academy! As music lovers, our team decided to create a music application where you can find new songs based on what mood you're in. Users can create an account through the Ruby Devise gem and perform basic CRUD actions with songs. We've also implemented a media player so that when you find a song you want to listen to, you can listen to it right on our app! Click the pick to be taken to the app and view the repo on GitHub. ",
+      gitHub:"https://github.com/capstone-capos-2022-echo/mood-music",
+      link:"https://mud-muzik.herokuapp.com/"
+
     },
     {
-      name: "Pig Latin Translator",
+      name: "Mr. Jingles",
       image: Proj2,
-      skills: "React, JavaScript",
+      skills: "React, HTML, CSS, JavaScript, Ruby on Rails",
+      description:" A decoupled React and Rails application. Using React in the front-end and Rails in the backend to handle the data storage.", 
+      gitHub: "https://github.com/ElijahBcodes/cat-tinder-frontend-mr-jingles",
+      link:"https://mrjingles-react-app.netlify.app/",
     },
     {
       name: "Treasure Hunt Game",
       image: Proj3,
       skills: "HTML, CSS, JavaScript",
+      gitHub: "https://github.com/ElijahBcodes/zombies",
+      link:"https://react-treasure-hunt-game.netlify.app/",
+      description:"A board game built in a weekend coding bootcamp"
     },
     {
       name: "City of Larendale text Game",
       image: Proj4,
       skills: "Ruby",
+      gitHub: "https://github.com/learn-academy-2022-echo/text-based-game-larendale/tree/test",
+      link:"",
+      description:" Group project built as a fun way to code with Ruby by making a text-based game using ASCII art"
     },
     {
       name: "Blog App",
       image: Proj5,
-      skills: "Ruby, Rails, ",
-    },
-    {
-      name: "Dice Game ",
-      image: Proj6,
-      skills: "React,JavaScript,HTML,CSS",
-    },
+      skills: "Ruby, Rails ",
+      gitHub: "https://github.com/learn-academy-2022-echo/full-stack-rails-strong",
+      link:"",
+      description:" Full Stack Rails blog application built with another developer. Full CRUD actions."
+    }
   ];
