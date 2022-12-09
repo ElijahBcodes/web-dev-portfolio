@@ -10,7 +10,7 @@ export const ProjectList = [
       name: "Müd Müzik",
       image: Proj1,
       skills: "React, JavaScript, HTML, CSS, Rails",
-      description:"Müd Müzik is a website application made using React IN Rails for our capstone project at LEARN Academy! As music lovers, our team decided to create a music application where you can find new songs based on what mood you're in. Users can create an account through the Ruby Devise gem and perform basic CRUD actions with songs. We've also implemented a media player so that when you find a song you want to listen to, you can listen to it right on our app! Click the pick to be taken to the app and view the repo on GitHub. ",
+      description:"Müd Müzik was a group project built using React in Rails for our capstone at LEARN Academy. As music lovers, our team decided to create a music app where you can find new songs based on what mood you're in. Users can create an account through the Ruby Devise gem and perform basic CRUD actions with songs. We've also implemented a media player so that when you find a song you want to listen to, you can listen to it right on our app! Click the project piv to be taken to the app or view the repo on GitHub. ",
       gitHub:"https://github.com/capstone-capos-2022-echo/mood-music",
       link:"https://mud-muzik.herokuapp.com/"
 
@@ -19,7 +19,7 @@ export const ProjectList = [
       name: "Mr. Jingles",
       image: Proj2,
       skills: "React, HTML, CSS, JavaScript, Ruby on Rails",
-      description:" A decoupled React and Rails application. Using React in the front-end and Rails in the backend to handle the data storage.", 
+      description:" Built as a pair coding project. A decoupled React and Rails application. Using React in the front-end and Rails in the backend to handle the data storage.", 
       gitHub: "https://github.com/ElijahBcodes/cat-tinder-frontend-mr-jingles",
       link:"https://mrjingles-react-app.netlify.app/",
     },

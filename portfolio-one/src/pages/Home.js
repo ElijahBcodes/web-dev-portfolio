@@ -22,13 +22,13 @@ function Home() {
           <p>
             A web developer with a zeal for for technology and learning.
           </p>
-          <a href="https://www.linkedin.com/in/elijah-barreto/" >
+          <a href="https://www.linkedin.com/in/elijah-barreto/" target= "_blank" rel="noreferrer" >
             <LinkedInIcon />
           </a>
-          <a href="https://twitter.com/eli1inthesnow">
+          <a href="https://twitter.com/eli1inthesnow" target= "_blank">
             <TwitterIcon />
           </a>
-          <a href="https://github.com/ElijahBcodes" >
+          <a href="https://github.com/ElijahBcodes" target= "_blank" rel="noreferrer">
             <GithubIcon />
           </a>
         </div>

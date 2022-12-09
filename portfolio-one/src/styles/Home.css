@@ -21,8 +21,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #1a1914;
   /* height: 10px; */
-  font-size: 35px;
-
+  /* font-size: 35px; */
 }
 
 .about .prompt {
@@ -56,21 +55,20 @@
 }
 
 .list span {
-  font-size: 35px;
+  font-size: 20px;
 }
 
-@media only screen and (max-width: 375px) {
-
+@media only screen and (max-width: 400px) {
   .about .prompt {
+    width: 400px;
     margin-top: 5px;
-    font-size: 15px;
+    font-size: 25px;
     width: 100%;
   }
 
   .skills {
     text-align: center;
     /* height: 1rem; */
-
   }
 
   .list {
@@ -84,14 +82,11 @@
   .portrait {
     margin: 10px;
     width: 500px;
-    height:500px;
+    height: 500px;
     -webkit-clip-path: circle(29.8% at 51% 38%);
     clip-path: circle(29.8% at 51% 38%);
   }
-
- 
 }
-
 
 .pic-style {
   padding: 20px;
