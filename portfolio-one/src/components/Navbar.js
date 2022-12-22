@@ -28,7 +28,6 @@ function Navbar() {
                 <a className="arrow" id="top"></a>
                 <Link to="/"> Home </Link>
                 <Link to="/projects"> Projects </Link>
-                <Link to="/experience"> Experience </Link>
             </div>
         </div>
     )
